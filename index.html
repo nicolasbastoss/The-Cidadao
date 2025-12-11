@@ -40,14 +40,23 @@ body {
 }
 
 /* Opcional: responsivo para telas menores */
+@media (max-width: 480px) {
+  .top-wrapper {
+    padding: 32px 16px;
+  }
 
+
+  .brand-title {
+    font-size: 26px;
+  }
+}
 
 .brand-card {
   background:#02221D;
   color: #ffffff;
   border-radius: 18px;
- padding: 24px 110px 52px 36px;
-
+  padding: 24px 110px 52px 36px;
+  position: fixed;
 */* top right bottom left */*
 
 display: inline-block;
